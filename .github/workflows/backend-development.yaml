@@ -17,4 +17,4 @@ jobs:
           heroku_email: ${{secrets.HEROKU_MAIL}}
         env:
           NODE_ENV: production
-          MY_HEROKU_URL: "https://${{secrets.HEROKU_APP_NAME}}.heroku
+          MY_HEROKU_URL: "https://${{secrets.HEROKU_APP_NAME}}.heroku"
