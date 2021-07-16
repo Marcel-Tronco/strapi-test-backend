@@ -1,3 +1,3 @@
 # Strapi application
 
-A quick description of your strapi application
+This is the cms for a Gatsby frontend basing on a starter tutorial of strapi. The whole combination is a proof of concept for a CI/CD Pipeline for developping a strapi backend and gatsby frontend. While the Backend is pushed to heroku, the gatsby frontend is build by gh actions fetching data from the backend and then pushing to a github pages repo that serves the static content. Additionally a automation has been build that triggers rebuilds of the frontend if new articles are published. (A workaround for the pertaining issue of limited possibilities for adapting webhooks within strapi was build with a custom route, that is triggered by a webhook (`/deploy`))
